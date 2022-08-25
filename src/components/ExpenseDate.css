@@ -1,0 +1,24 @@
+.date {
+  border-radius: 10px;
+  border: 2px solid rgb(124, 25, 223);
+  border-top: 2px solid rgb(56, 183, 18);
+  border-bottom: 2px solid rgb(56, 183, 18);
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(87, 87, 93);
+}
+
+.date--month {
+  color: rgba(0, 0, 0, 0.684);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.date--year {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+.date--day {
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+}
