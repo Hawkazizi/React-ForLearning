@@ -6,7 +6,6 @@
   padding: 0.5rem;
   margin: 1rem 0;
   border: 2px solid rgba(0, 255, 255, 0.436);
-  border-radius: 12px;
   background-color: #4b4b4b;
 }
 
@@ -21,21 +20,28 @@
 }
 
 .expense-item h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #3a3a3a;
   font-size: 1rem;
-  flex: 1;
+  /* flex: 1; */
   margin: 0 1rem;
   color: white;
+  background-color: #271d2b;
+  border: #a200e2 solid 3px;
+  border-radius: 5px;
+  padding: 0 4px;
 }
 
 .expense-item__price {
+  margin-left: auto;
   font-size: 1rem;
   font-weight: bold;
   color: rgb(108, 224, 170);
   background-color: #271d2b;
   border: 2px dashed rgb(108, 224, 170);
   padding: 0.5rem;
-  border-radius: 12px;
+  border-radius: 120px;
 }
 
 @media (min-width: 580px) {
