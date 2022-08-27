@@ -61,3 +61,7 @@
     padding: 0.5rem 1.5rem;
   }
 }
+.click {
+  background-color: #271d2b;
+  cursor: pointer;
+}
