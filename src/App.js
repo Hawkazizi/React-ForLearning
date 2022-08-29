@@ -1,4 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
+import Input from "./components/EnterExpense";
 
 function App() {
   const expense = [
@@ -21,7 +22,7 @@ function App() {
   return (
     <div>
       <h2>Let's get started! </h2>
-
+      <Input></Input>
       <div className="allBoxes">
         <ExpenseItem
           id={expense[0].id}
