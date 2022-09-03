@@ -18,11 +18,18 @@ function App() {
     { id: "4q1", title: "new phone", amount: "60", date: new Date(2024, 1, 1) },
     { id: "9f3", title: "case", amount: "1000", date: new Date(2024, 10, 1) },
   ];
+  const AmountDatas = (amounts) => {
+    const Expenses = {
+      ...amounts,
+      V: "hu",
+    };
+    console.log(Expenses);
+  };
 
   return (
     <div>
       <h2>Let's get started! </h2>
-      <Input></Input>
+      <Input onAmount={AmountDatas}></Input>
       <div className="allBoxes">
         <ExpenseItem
           id={expense[0].id}

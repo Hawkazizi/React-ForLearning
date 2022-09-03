@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./EnterExpense.css";
 
-function Input() {
+function Input(props) {
   const [enterdTitle, setEnteredTitle] = useState("");
   //Change Handler
   function changeHandler(event) {
@@ -17,6 +17,7 @@ function Input() {
     };
     console.log(expenseData);
     setEnteredTitle("");
+    props.onAmount(expenseData);
   }
 
   //XML
