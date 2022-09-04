@@ -5,3 +5,12 @@
   width: 50rem;
   max-width: 95%;
 }
+.NOEXPENSE {
+  display: inline;
+  background-color: aqua;
+  border-radius: 5px;
+  color: red;
+  font: bold;
+  margin-left: 20rem;
+  font-size: large;
+}
